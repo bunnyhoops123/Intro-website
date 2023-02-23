@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background-color: #698269;
+  margin:50px;
+}
+
+h1 {
+  font-family: sans-serif;
+
+  color: #AA5656;
+  font-weight: bold;
+}
+p {
+  color: #B99B6B;
+}
+a {
+  color: #ff5f9e;
+  text-decoration: none;
+}
+
+a:hover {
+  /*Pseudo selector */
+  color: #F1DBBF;
+  text-decoration: none;
+}
+#todays-challenge {
+  /*Id selector*/
+  color: #F1DBBF;
+  font-size: 52px;
+  font-weight: bold;
+  font-family: "Syne Mono", monospace; /*Imprt exrternal font*/
+}
+#achieve {
+  font-size: 30px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  
+}

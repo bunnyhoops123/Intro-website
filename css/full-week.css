@@ -1,0 +1,79 @@
+header{
+margin-bottom: 64px;
+margin-bottom: 1px;
+
+}
+
+header p{
+    margin-top:20px;
+    margin-bottom: 5px;
+    
+}
+
+
+h1 {
+    font-size: 60px;
+    color: rgb(71, 62, 62);
+    margin: 12px auto;
+}
+
+a{  
+    
+    background-color: rgb(167, 1 , 78);
+    color: white;
+    border-radius: 4px;
+    font-size: 24px;
+    border: 1px solid rgb(167, 1 , 78); 
+    display: block;
+    width:480px;
+    margin:auto;
+    margin-bottom: 30px;
+    padding: 10px;    
+    
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: rgb(180, 12, 90);
+}
+
+
+
+ol{
+    list-style: none;
+    width: 500px;
+    margin:10px auto 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+
+
+li {                                    /*Type selector*/
+    background-color: rgb(223, 136, 124);
+    border-radius: 5px;
+    margin: 40px auto 20px auto;
+    font-size: 19px;
+    padding:10px;    
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.8);  /*x-offset, y-offset, blur radius, opacity 0-1*/
+}
+
+h2{
+    color:rgb(78, 13, 5);
+    font-family: 'Oswald', sans-serif;
+    margin: 10px;
+}
+
+main p{                      /*Combinators--> Ancestor element*/
+    margin:4px;
+    color: rgb(71, 29, 22);
+}
+
+.daily-goal{                /*class decorator.Class dominates over combinators*/
+    margin:12px;
+    color: rgb(71, 29, 22);
+}
+
+.highlight-goal{
+        background-color: rgb(226, 115, 101);
+}
